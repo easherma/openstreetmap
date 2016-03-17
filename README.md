@@ -3,6 +3,7 @@
 | ------------- |:-------------|
 
 ## Prerequisites
+> __PRO-TIP:__ If you're cloning a version of pelias to run locally, we'd recommend using the 'production' branch instead of the 'master' branch of this repo, as the production branch is more stable! 
 
 In order to use the importer you must first install and configure `elasticsearch` and `nodejs`.
 
@@ -20,8 +21,6 @@ $ npm install
 ```
 
 ## Download data
-
-You will need to download quattroshapes in order to build an admin hierarchy for each record, you can pull-down a tarball from [here](http://quattroshapes.mapzen.com/quattroshapes/quattroshapes-simplified.tar.gz) (537MB) which you will need to extract, preferably to an SSD if you have one.
 
 The importer will accept any valid `pbf` extract you have, this can be a full planet file (25GB+) from http://planet.openstreetmap.org/ or a smaller extract from https://mapzen.com/metro-extracts/ or http://download.geofabrik.de/
 
